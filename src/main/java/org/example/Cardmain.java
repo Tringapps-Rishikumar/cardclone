@@ -6,7 +6,7 @@ class Cardmain{
     public static void main(String[]args)throws CloneNotSupportedException{
         Card card1=new Card();
         Logger l =  Logger.getLogger("points");
-        if(card1.cardNumber().equals("true"))
+        if(card1.cardcheck().equals("true"))
         {
         l.info("card with same number");
         }

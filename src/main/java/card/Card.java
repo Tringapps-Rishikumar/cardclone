@@ -24,7 +24,7 @@ public class  Card implements Cloneable {
         l.log(Level.INFO,()->"\n  Card Number "+number);
         l.log(Level.INFO,()->"\n Expiration Date "+date);
     }
-    public String cardNumber() {
+    public String cardcheck() {
         if (cardnumber.equals(number)) {
             return "true";
         } else {
