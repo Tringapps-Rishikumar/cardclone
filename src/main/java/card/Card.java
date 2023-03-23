@@ -4,10 +4,10 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 public class  Card implements Cloneable {
-    public Logger l =  Logger.getLogger("points");
-    public String holdername;
-    public String cardnumber;
-    public String expirationdate;
+    public static final Logger l =  Logger.getLogger("points");
+    public static String holdername;
+    public static String cardnumber;
+    public static String expirationdate;
     String name = "aa";
     String number = "1248";
     String date = "12";
