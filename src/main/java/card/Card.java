@@ -5,9 +5,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 public class  Card implements Cloneable {
     public static final Logger l =  Logger.getLogger("points");
-    public static String holdername;
-    public static String cardnumber;
-    public static String expirationdate;
+    public String holdername;
+    public String cardnumber;
+    public String expirationdate;
     String name = "aa";
     String number = "1248";
     String date = "12";
